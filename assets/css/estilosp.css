@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/open-sans/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url("../fonts/open-sans/OpenSans-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'iconitos';
+     src: url("../fonts/iconos/icomoon.eot?lmozq2");
+    src: url("../fonts/iconos/icomoon.eot?lmozq2#iefix") format('embedded-opentype'), url("../fonts/iconos/icomoon.ttf?lmozq2") format('truetype'), url("../fonts/iconos/icomoon.woff?lmozq2") format('woff'), url("../fonts/iconos/icomoon.svg?lmozq2#icomoon") format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+*{
+    font-family: 'Open Sans';
+}
+header {
+    background-color: #fff;
+    background-size: contain;
+    
+}
+
+header {
+    display: inline-block;
+}
+
+
+header .Barra .Logo {
+    display: inline-block;
+}
+
+header .Barra .Logo h3 {
+    display: inline-block;
+    font-family: 'Open Sans Bold';
+    font-size: 25px;
+    margin-left: 210px;
+    margin-right: 50px;
+    color: #2e2523;
+}
+
+header .Barra .Lista {
+    display: inline-block;
+    float: right;
+    padding-top: 20px;
+}
+
+header .Barra .Lista ul li{
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+
+header  .Barra .Lista ul li a{
+    font-family: 'Open Sans Bold';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #b0b0b0 ;
+}
+.HipHop {
+    margin-bottom: 45px;
+}
+
+.HipHop .titulo{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.HipHop .titulo h4{
+    font-family: 'Open Sans Bold';
+    color: #2e2523;
+    margin: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.HipHop .titulo p{
+    color: #aeabaa;
+   font-size: 20px;
+   font-weight: bold ;
+   margin: 0px;
+}
+
+.HipHop .Tarjetas{
+    text-align: center;
+}
+
+.HipHop .Tarjetas div{
+    text-align: center;
+   width: 300px;
+   display: inline-block;
+   margin: 30px 15px 0px 15px;
+   -webkit-box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.HipHop .Tarjetas div img{
+    width: 400px;
+    height: 500px;
+}
+
+
+.HipHop .Tarjetas div h5{
+    color: #282828;
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+}
+
+.HipHop .Tarjetas div h6{
+    color: #adadad;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.HipHop .Tarjetas div lu li{
+    font-size: 15px;
+    width: 90%;
+    margin-top: 15px;
+    font-style: italic;
+    text-align: center;
+    color:  #5e5e5e;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+}
+
+.Vocal {
+    margin-bottom: 45px;
+}
+
+.Vocal .tituloV{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.Vocal .tituloV h4{
+    font-family: 'Open Sans Bold';
+    color: #2e2523;
+    margin: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.Vocal .tituloV p{
+    color: #aeabaa;
+    font-size: 20px;
+    font-weight: bold ;
+    margin: 0px;
+}
+
+.Vocal .tarjeta{
+    text-align: center;
+}
+
+.Vocal .tarjeta div{
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    margin: 30px 15px 0px 15px;
+    -webkit-box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Vocal .tarjeta div img{
+    width: 400px;
+    height: 400px;
+}
+
+.Vocal .tarjeta div h5{
+    color: #282828;
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+}
+
+.Vocal .tarjeta div h6{
+    color: #adadad;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.Vocal .tarjeta div lu li{
+    font-size: 15px;
+    width: 90%;
+    margin-top: 15px;
+    font-style: italic;
+    text-align: center;
+    color:  #5e5e5e;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+}
+
+.Performance-team{
+    margin-bottom: 45px;
+}
+
+.Performance-team .titulo{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.Performance-team .titulo h4{
+    font-family: 'Open Sans Bold';
+    color: #2e2523;
+    margin: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.Performance-team .titulo p{
+    color: #aeabaa;
+    font-size: 20px;
+    font-weight: bold ;
+    margin: 0px;
+}
+
+.Performance-team .tarjeta{
+    text-align: center;
+}
+
+.Performance-team .tarjeta div{
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    margin: 30px 15px 0px 15px;
+    -webkit-box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Performance-team .tarjeta div img{
+    width: 400px;
+    height: 500px;
+}
+
+.Performance-team .tarjeta div h5{
+    color: #282828;
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+}
+
+.Performance-team .tarjeta div h6{
+    color: #adadad;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.Performance-team .tarjeta div lu li{
+    font-size: 15px;
+    width: 90%;
+    margin-top: 15px;
+    font-style: italic;
+    text-align: center;
+    color:  #5e5e5e;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+}
